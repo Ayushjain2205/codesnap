@@ -39,7 +39,7 @@ function CodeEditor() {
     setLanguage(event.target.value);
   }
 
-  const { generateImage, captureRef, status } = useScreenshot();
+  const { generateImage, captureRef } = useScreenshot();
   return (
     <div>
       <div className='page-body'>
